@@ -1,0 +1,45 @@
+{
+  "name": "nodit-ethers-provider",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest"
+  },
+  "keywords": [
+    "ethers",
+    "provider",
+    "nodit",
+    "web3"
+  ],
+  "repository": "https://github.com/garamnamo/nodit-ethers-provider",
+  "author": "garamnamo",
+  "license": "Apache-2.0",
+  "description": "",
+  "dependencies": {
+    "ethers": "^6.13.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.17.19",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-plugin-jest": "^28.11.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-sonarjs": "^3.0.2",
+    "eslint-plugin-unicorn": "^57.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.5.2",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.25.0"
+  }
+}
